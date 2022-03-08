@@ -1,4 +1,4 @@
-var bodytext = document.querySelectorAll("h1, h2, p").toLowerCase().replace(/[.,\s]/g, ' ');
+var bodytext = document.querySelectorAll("h1, h2").toLowerCase().replace(/[.,\s]/g, ' ');
 var bodytext = bodytext.replace(/[àáâãäå]/g,"a");
 var bodytext = bodytext.replace(/[éèêë]/g,"e");
 var bodytext = bodytext.replace(/[íì]/g,"i");
