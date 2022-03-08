@@ -7,10 +7,3 @@ var bodytext = bodytext.replace(/[íì]/g,"i");
 var bodytext = bodytext.replace(/[õôö]/g,"o");
 var bodytext = bodytext.replace(/[úùü]/g,"u");
 var bodytext = bodytext.replace(/[ç]/g,"c");
-
-
-	if(words.test(bodytext)){
-		var hardnews = "1"
-	}else{
-		var hardnews = "0"
-	}
