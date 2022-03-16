@@ -3,7 +3,7 @@ var words = / pf | revolver | homicidio | culposo | depoimentos | presidente da 
 var bodytext = " " + document.querySelector('meta[name="twitter:title"]').content;
 var bodytext = bodytext + " " + document.querySelector('meta[name="twitter:description"]').content + " ";
 
-var bodytext = bodytext.toLowerCase().replace(/[.,\s]/g, ' ');
+var bodytext = bodytext.toLowerCase().replace(/[.,;\s]/g, ' ');
 var bodytext = bodytext.replace(/'/g,'');
 var bodytext = bodytext.replace(/[àáâãäå]/g,"a");
 var bodytext = bodytext.replace(/[éèêë]/g,"e");
