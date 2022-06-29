@@ -1,5 +1,4 @@
 var bodytext = document.getElementsByTagName("p");
-for(var i = 0; i < bodytext.length; i++)
 
 var bodytext = bodytext.toLowerCase().replace(/[.,;-\s]/g, ' ');
 var bodytext = bodytext.replace(/["']/g,'');
