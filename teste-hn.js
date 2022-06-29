@@ -1,4 +1,4 @@
-var bodytext = $('h1').bodytext();;
+var bodytext = $('p').bodytext();;
 
 var bodytext = bodytext.toLowerCase().replace(/[.,;-\s]/g, ' ');
 var bodytext = bodytext.replace(/["']/g,'');
