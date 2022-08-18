@@ -2,7 +2,7 @@ var words = / abus| acident| acusac| adult| aglomerac| agred| agress| agu | ai 5
 
 var bodytext = " " + document.querySelector('meta[property="og:title"]').content;
 var bodytext = bodytext + " " + document.querySelector('meta[property="og:description"]').content + " ";
-var bodytext = bodytext + " " + document.getElementsByTagName('p') + " ";
+var bodytext = bodytext + " " + document.getElementsByTagName("p") + " ";
 
 var bodytext = bodytext.toLowerCase().replace(/[.,;-\s]/g, ' ');
 var bodytext = bodytext.replace(/["']/g,'');
