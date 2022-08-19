@@ -6,9 +6,6 @@ var bodytext = bodytext + " " + document.querySelector('meta[property="og:descri
 */
 
 var bodytext = document.getElementsByTagName("p");
-for (var i = 0;i < bodytext.length; i++){
-     bodytext[i].setAttribute("desired_attribute", "value");
-}
 
 var bodytext = bodytext.toLowerCase().replace(/[.,;-\s]/g, ' ');
 var bodytext = bodytext.replace(/["']/g,'');
