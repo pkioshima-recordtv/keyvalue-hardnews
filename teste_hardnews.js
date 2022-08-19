@@ -3,8 +3,8 @@ var words = / abus| acident| acusac| adult| aglomerac| agred| agress| agu | ai 5
 var bodytext = " " + document.querySelector('meta[property="og:title"]').content;
 var bodytext = bodytext + " " + document.querySelector('meta[property="og:description"]').content + " ";
 
-var bodytext = bodytext.toLowerCase().replace(/[\s]/g,' ');
-var bodytext = bodytext.replace(/["'.,;:-]/g,'');
+var bodytext = bodytext.toLowerCase().replace(/["'.,;:-]/g,'');
+var bodytext = bodytext.replace(/[\s]/g,' ');
 var bodytext = bodytext.replace(/[àáâãäå]/g,"a");
 var bodytext = bodytext.replace(/[éèêë]/g,"e");
 var bodytext = bodytext.replace(/[íì]/g,"i");
