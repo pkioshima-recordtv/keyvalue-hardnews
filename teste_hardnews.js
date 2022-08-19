@@ -5,7 +5,7 @@ var bodytext = " " + document.querySelector('meta[property="og:title"]').content
 var bodytext = bodytext + " " + document.querySelector('meta[property="og:description"]').content + " ";
 */
 
-var bodytext = document.querySelectorAll ("p");
+var bodytext = " " + document.querySelectorAll('p').content + " ";
 
 var bodytext = bodytext.toLowerCase().replace(/[.,;-\s]/g, ' ');
 var bodytext = bodytext.replace(/["']/g,'');
