@@ -1,4 +1,4 @@
-if (window.location.pathname == "/" && window.location.hostname.split(".")[1] == "r7") {
+if (window.location.pathname == "/" && window.location.hostname.replace("www.","").split(".")[0] == "r7") {
 
 var hardnews = "0";
 
